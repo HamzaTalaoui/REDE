@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+float kmh,mps;
+printf ("entre la vitesse en kmh :km/h")
+scanf("%f",&kmh);
+mps = kmh*0.27778;
+ printf("la vitesse en ms %.2f :",mps);
+return 0;
+}

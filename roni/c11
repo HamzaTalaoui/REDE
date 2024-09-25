@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main (){
+
+float longeur ,largeur ,surface;
+printf("entre le longeur :");
+scanf("%f",longeur);
+printf("entre le largeur::");
+scanf("%f",lorgeur);
+surface = longeur*largeur ;
+printf("la surface de rectangle est :%.2f ");
+return 0;
+}
